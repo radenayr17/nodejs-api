@@ -126,8 +126,6 @@ router.post('/',function(req,res){
     const key = keys[0];
     const value = post[key];
 
-    console.log(post);
-
     if(key && value){
         const data = {
             field:key,
